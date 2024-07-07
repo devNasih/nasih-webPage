@@ -1,0 +1,20 @@
+.homePage {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  /* background-color: #252627; */
+  border-radius: 10px;
+}
+.homePage-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 808px) {
+    
+  }
+  

@@ -1,0 +1,70 @@
+.menuBar {
+  width: 16rem;
+  background-color: #252627;
+  border-radius: 10px;
+  /* height: 100%; */
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.personal-details-menu{
+  padding-left: 2.5rem;
+  margin-top: 1.5rem;
+}
+
+.profile-menuBar h5 {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: white;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.memoji-image {
+  border-radius: 50%;
+  background-color: #4e504f;
+  margin-bottom: 10px;
+}
+
+.menuBar-position p {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 12px;
+}
+
+.menuBar-position {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 130px;
+  height: 2rem;
+  background-color: #4e504f;
+  border-radius: 5px;
+  display: flex;
+  padding-top: 5px;
+  justify-content: center;
+}
+
+.social-icons-menu {
+  height: 40px;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+
+/* icons in the menu bar */
+.menu-icon {
+  color: #ffffff;
+}
+
+.menu-icon:hover {
+  color: #ebac59;
+}
+
+@media (max-width: 576px) {
+  .menuBar {
+    display: none;
+  }
+}
