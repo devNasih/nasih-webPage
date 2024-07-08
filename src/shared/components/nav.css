@@ -48,8 +48,8 @@ nav li:hover {
     display: none;
   }
   nav{
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
   .menu-icon {
     display: flex;
