@@ -1,0 +1,61 @@
+.ExP-container {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.icon {
+  font-size: 2.5rem;
+}
+.Exp-row-1 {
+  display: flex;
+  gap: 8rem;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px;
+}
+.Exp-row-2 {
+  display: flex;
+  gap: 9rem;
+  margin: 10px;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.test {
+  display: flex;
+  gap: 4rem;
+  background-color: aqua;
+}
+
+.main-icon-cnt{
+    display: flex;
+    gap: 2rem;
+    background-color: bisque;
+}
+
+.test2 {
+    display: flex;
+    gap: 4rem;
+    background-color: bisque;
+
+  }
+
+@media only screen and (max-width: 992px) {
+    .main-icon-cnt{
+       
+        gap: 0;
+        background-color: bisque;
+    }
+    .test2 {
+ display: block;
+ gap: 0;
+
+  }
+  .test {
+    display: flex;
+    gap: 0;
+  }
+  .Exp-row-1 {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

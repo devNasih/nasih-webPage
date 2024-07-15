@@ -1,60 +1,108 @@
-.main-container-about{
-    background-color: #2e2f2f;
-    width: 100%;
-    height: 85vh;
+.container-fluid {
+  padding: 20px;
+}
+.row {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.about-heading {
+  display: flex;
+  justify-content: center;
+  background-color: #264de4;
+}
+.User-Image-EXP {
+  border-radius: 10%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+.User-details-EXP {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+  color: white;
+}
+
+.About-nasih {
+  padding: 20px;
+  font-size: 15px;
+  color: white;
+}
+.skill-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.react-icon-skill {
+  font-size: 50px;
+  color: #61dafb;
+  animation: rotate 15s linear infinite;
+}
+
+.javascript-icon-skill {
+  font-size: 50px;
+  color: #f0db4f;
+}
+
+.html-icon-skill {
+  font-size: 50px;
+  color: #e34c26;
+}
+.css-icon-skill {
+  font-size: 50px;
+  color: #264de4;
+}
+.bootstrap-icon-skill {
+  font-size: 50px;
+  color: #7952b3;
+}
+
+.flutter-icon-skill {
+  font-size: 50px;
+  color: #02569b;
+}
+.Image-div {
+  background-color: #61dafb;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .AlignImage {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    font-size: 20px;
-    border-radius: 10px;
-}
-
-.About-nasih{
-    padding: 20px;
-    font-size: 15px;
-    color: white;
-}
-.skill-container{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .Image-div {
     display: flex;
-    flex-direction: row;
-    gap: 20px;
-}
+    justify-content: center;
+    align-items: center;
+  }
+  .User-details-EXP {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0rem;
+    color: white;
+  }
+  .container-fluid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-.react-icon-skill{
-    font-size: 50px;
-    color: #61dafb;
-    animation: rotate 15s linear infinite;
-}
-
-.javascript-icon-skill{
-    font-size: 50px;
-    color: #f0db4f;
-}
-
-.html-icon-skill{
-    font-size: 50px;
-    color: #e34c26;
-}
-.css-icon-skill{
-    font-size: 50px;
-    color: #264de4;
-}
-.bootstrap-icon-skill{
-    font-size: 50px;
-    color: #7952b3;
-}
-
-.flutter-icon-skill{
-    font-size: 50px;
-    color: #02569b;
-}
-
-@keyframes rotate {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
 }

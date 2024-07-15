@@ -7,7 +7,7 @@ export default function FirstPage() {
         <div className="col-xl-6 col-lg-6 col-md-12 user-Image">
           <div className="Image-0">
             <img
-              src="/assets/DSC00052.JPG"
+              src="assets/home_my_Image.jpg"
               alt="my-image"
               width={400}
               height={400}

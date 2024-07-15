@@ -3,7 +3,8 @@
   display: flex;
 }
 .container-fluid {
-  padding-top: 9rem;
+  margin-top: 7rem;
+  margin-bottom: 18rem;
 }
 
 .user-Image {
@@ -125,5 +126,6 @@
   }
   .container-fluid {
     padding-top: 5rem;
+    margin-bottom: 9rem;
   }
 }

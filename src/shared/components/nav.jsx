@@ -3,29 +3,39 @@
 import React, { useState } from "react";
 import "./nav.css";
 import { CiMenuFries } from "react-icons/ci";
+import { Link } from "react-scroll";
 
-const NavBar = ({ onSelect }) => {
+const NavBar = () => {
   const [animate, setAnimate] = useState(false);
 
   const handleIconClick = () => {
     setAnimate(true);
-    setTimeout(() => setAnimate(false), 1000); // Reset animation class after 1s (duration of animation)
+    setTimeout(() => setAnimate(false), 1000); 
   };
+
   return (
     <nav>
       <h1 style={{ color: "black" }}>Nasih Ameen K</h1>
       <ul className="nav-elements">
-        <li style={{ color: "black" }} onClick={() => onSelect("about")}>
-          About
+        <li style={{ color: "black"  }}>
+          <Link to="about" smooth={true} duration={0.5}>
+            About
+          </Link>
         </li>
-        <li style={{ color: "black" }} onClick={() => onSelect("projects")}>
-          Projects
+        <li style={{ color: "black" }}>
+          <Link to="experience" smooth={true} duration={0.5}>
+            Experience
+          </Link>
         </li>
-        <li style={{ color: "black" }} onClick={() => onSelect("connections")}>
-          Connections
+        <li style={{ color: "black" }}>
+          <Link to="connections" smooth={true} duration={0.5}>
+            Connections
+          </Link>
         </li>
-        <li style={{ color: "black" }} onClick={() => onSelect("blog")}>
-          Blog
+        <li style={{ color: "black" }}>
+          <Link to="blog" smooth={true} duration={0.5}>
+            Blog
+          </Link>
         </li>
       </ul>
       <CiMenuFries
