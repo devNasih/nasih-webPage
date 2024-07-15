@@ -4,7 +4,7 @@ import SkillsList from "./skills_list";
 export default function Experience() {
   return (
     <div className="row">
-      <div className="col-xl-12 col-lg-12 col-12">
+      <div className="col-xl-12 col-lg-12 col-12 ExP-container">
         <h5
           style={{
             fontFamily: "Montserrat ,sans-serif",
@@ -30,9 +30,9 @@ export default function Experience() {
         >
           Experience
         </h3>
-        <div className="container-fluid">
+   
         <SkillsList />
-        </div>
+      
       </div>
     </div>
   );

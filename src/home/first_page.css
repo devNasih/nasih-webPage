@@ -55,6 +55,7 @@
 .user-buttons {
   display: flex;
   gap: 1.3rem;
+  
 }
 .resume-btn {
   border: #000000 1px solid;
@@ -91,7 +92,14 @@
   display: inline-block;
   border-radius: 30px;
 }
+
 @media only screen and (max-width: 992px) {
+  .user-buttons {
+    margin-bottom: 9rem;
+  }
+  .container-fluid {
+    margin-top: 7rem;
+  }
   .user-designation h4 {
     font-family: "poppins", sans-serif;
     color: #555555;
@@ -123,9 +131,7 @@
     width: 250px;
     height: 250px;
     margin-bottom: 1rem;
-  }
-  .container-fluid {
-    padding-top: 5rem;
-    margin-bottom: 9rem;
+    margin-right: 1.3rem;
+    
   }
 }

@@ -4,7 +4,7 @@ export default function FirstPage() {
   return (
     <div className="container-fluid">
       <div className="row">
-        <div className="col-xl-6 col-lg-6 col-md-12 user-Image">
+        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 user-Image">
           <div className="Image-0">
             <img
               src="assets/home_my_Image.jpg"
